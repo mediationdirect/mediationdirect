@@ -1,0 +1,6 @@
+{
+  "name": "Mediation Direct - UK Family Mediation",
+  "description": "Mediation Direct provides accredited UK family mediation for parenting plans, divorce finances, and MIAM certificates. Speak with an expert on 03300 100 175.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

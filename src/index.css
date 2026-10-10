@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --surface: #FAF7F2;
+    --surface-raised: #FFFFFF;
+    --surface-inverse: #1A1F23;
+    --primary: #1A1F23;
+    --accent: #C7522A;
+    --accent-solid: #C5512A;
+    --accent-text: #8D3A1E;
+    --accent-subtle: #F7E5DF;
+    --text: #1A1F23;
+    --text-muted: #515558;
+    --border: #E6E1D8;
+    --border-subtle: #ECE8E1;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background-color: var(--surface);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Smooth focus rings matching brand guidelines */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
